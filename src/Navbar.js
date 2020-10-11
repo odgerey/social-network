@@ -172,7 +172,11 @@ export default function PrimarySearchAppBar() {
             color="inherit"
             aria-label="open drawer"
           >
-            <MenuIcon />
+         
+              <MenuItem onClick={event =>  window.location.href='/chat'}>Chat</MenuItem>
+          
+          
+
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
             Your Social Network
